@@ -290,6 +290,10 @@ header {
     color:var(--primary-white-color);
 }
 
+.footer-logo-page {
+    color:var(--accent-color)
+}
+
 .name-logo {
     display:inline-block;
     margin-bottom:16px;
