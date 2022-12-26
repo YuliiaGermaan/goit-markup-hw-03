@@ -287,7 +287,7 @@ header {
 }
 
 .footer-text-page {
-    color:var(--accent-color);
+    color:var(--primary-white-color);
 }
 
 
@@ -298,6 +298,10 @@ header {
     text-transform:uppercase;
     font-family:'Raleway', sans-serif;
     text-decoration:none;
+}
+
+.footer-logo-page {
+    color:var(--accent-color)
 }
 
 /* Portfolio */
