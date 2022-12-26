@@ -287,12 +287,9 @@ header {
 }
 
 .footer-text-page {
-    color:var(--primary-white-color);
+    color:var(--accent-color);
 }
 
-.footer-logo-page {
-    color:var(--accent-color)
-}
 
 .name-logo {
     display:inline-block;
