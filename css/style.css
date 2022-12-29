@@ -281,7 +281,6 @@ header {
 .footer-page {
         padding-top:100px;
         padding-bottom:100px;
-        height:310px;
         background-color:var(--title-text-color);
 }
 
