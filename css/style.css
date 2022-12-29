@@ -319,6 +319,11 @@ header {
     margin-right:24px;
 }
 
+.section-btn {
+    padding-top: 72px;
+    padding-bottom: 72px;
+}
+
 .portfolio-buttons{
     border-radius:4px;
     height:48px;
