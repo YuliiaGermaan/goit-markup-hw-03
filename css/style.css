@@ -344,6 +344,7 @@ header {
 .list-img {
     display:flex;
     flex-wrap:wrap;
+    gap: 48px 24px;
 }
 
 .list-img .item {
