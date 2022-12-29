@@ -347,11 +347,6 @@ header {
     gap: 48px 24px;
 }
 
-.list-img .item {
-    margin-right:24px;
-    margin-bottom:48px;
-}
-
 .list-img .hero-title {
     font-size:20px;
     line-height:1.2;
