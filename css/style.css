@@ -219,6 +219,8 @@ header {
 
 .main-list {
     display:flex;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .main-list .main-item:not(:last-child) {
