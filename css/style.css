@@ -17,7 +17,7 @@
     --primary-white-color:#ffffff;
     --accent-color:#4D5AE5;
     --light-color:#F4F4FD;
-    --an-accent-color:#404BBF
+    --an-accent-color:#404BBF;
 }
 
 body {
@@ -70,14 +70,14 @@ header {
     margin-left:77px;
 }
 
-.container{
+.container {
     width:1152px;
     padding-left:12px;
     padding-right:12px;
     margin:0 auto;
 }
 
-.section{
+.section {
     padding-top:120px;
     padding-bottom:120px;
 }
@@ -219,6 +219,8 @@ header {
 
 .main-list {
     display:flex;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .main-list .main-item:not(:last-child) {
@@ -231,6 +233,7 @@ header {
 
 .section-photo {
     padding-top:0;
+    padding-bottom:120px;
 }
 
 .gadjet-list {
@@ -259,7 +262,7 @@ header {
     background-color:var(--primary-white-color);
 }
 
-.team-names-container{
+.team-name-container{
     padding-top:32px;
     padding-bottom:32px;
 }
@@ -278,7 +281,6 @@ header {
 .footer-page {
         padding-top:100px;
         padding-bottom:100px;
-        height:310px;
         background-color:var(--title-text-color);
 }
 
@@ -312,12 +314,15 @@ header {
 
     margin-bottom:72px;
     padding:0;
-
-    text-decoration:none;
 }
 
 .portfolio-links .item:not(:last-child){
     margin-right:24px;
+}
+
+.section-btn {
+    padding-top: 72px;
+    padding-bottom: 72px;
 }
 
 .portfolio-buttons{
@@ -346,11 +351,7 @@ header {
 .list-img {
     display:flex;
     flex-wrap:wrap;
-}
-
-.list-img .item {
-    margin-right:24px;
-    margin-bottom:48px;
+    gap: 48px 24px;
 }
 
 .list-img .hero-title {
