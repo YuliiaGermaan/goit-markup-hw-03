@@ -305,6 +305,7 @@ header {
 }
 
 /* Portfolio */
+
 .portfolio-links {
     display:flex;
     justify-content:center;
@@ -333,6 +334,7 @@ header {
     font-size: 16px;
     line-height: 1.5;
 }
+
 .portfolio-buttons:hover,
 .portfolio-buttons:focus {
     color:var(--primary-white-color);
